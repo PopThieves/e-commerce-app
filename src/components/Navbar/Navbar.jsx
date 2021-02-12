@@ -4,8 +4,6 @@ import {
   Toolbar,
   IconButton,
   Badge,
-  MenuItem,
-  Menu,
   Typography,
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
@@ -34,7 +32,7 @@ const Navbar = ({ totalItems }) => {
               height="25px"
               className={classes.image}
             />
-            Commerce.js
+            Blackburn Logs and Kindling
           </Typography>
           <div className={classes.grow} />
           {location.pathname === "/" && (
